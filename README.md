@@ -1,30 +1,20 @@
 # sepulveda gonzalez angel alejandro
 
-# Imprimir nombre completo
+print("Sepulveda Gonzalez Angel Alejandro") # Imprimir nombre completo
 
-
-print("Sepulveda Gonzalez Angel Alejandro")
 
 print()  # Mantener el espacio en blanco
 
-# Solicitar un número al usuario
+numero = int(input("Ingresa un número: ")) # Solicitar un número al usuario
 
-numero = int(input("Ingresa un número: "))
-
-# Verificar si el número es 0
-
-if numero == 0:
+if numero == 0: # Verificar si el número es 0
    print("El número es 0.")
 
-# Verificar si es par
-
-elif numero % 2 == 0:
+elif numero % 2 == 0: # Verificar si es par
 
   print(f"El número {numero} es par.")
-
-# Si no es par, es impar
-
-else:
+  
+else: # Si no es par, es impar
     
   print(f"El número {numero} es impar.")
 
